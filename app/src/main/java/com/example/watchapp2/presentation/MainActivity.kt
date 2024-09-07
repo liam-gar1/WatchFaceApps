@@ -63,7 +63,7 @@ fun Greeting(greetingName: String) {
         textAlign = TextAlign.Center,
         color = MaterialTheme.colors.primary,
         //text = stringResource(R.string.hello_world, greetingName),
-        text = "Sleep Duration App"
+        text = "Sleep\nDuration App"
     )
 }
 
