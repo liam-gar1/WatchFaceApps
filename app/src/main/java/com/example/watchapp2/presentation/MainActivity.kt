@@ -48,7 +48,8 @@ fun WearApp(greetingName: String) {
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .background(MaterialTheme.colors.background),
+                //.background(MaterialTheme.colors.background),
+                .background(Color(0xFF64FFDA)),
             contentAlignment = Alignment.Center
         ) {
             TimeText()
