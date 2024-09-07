@@ -4,6 +4,9 @@
  * changes to the libraries and their usages.
  */
 
+//to change colors use Color(0xFF*hex code*) where the hex code is converted from the
+//...RGB value using the color pick tool in Paint using this site: https://www.rgbtohex.net/
+
 package com.example.watchapp2.presentation
 
 import android.os.Bundle
@@ -49,7 +52,7 @@ fun WearApp(greetingName: String) {
             modifier = Modifier
                 .fillMaxSize()
                 //.background(MaterialTheme.colors.background),
-                .background(Color(0xFF64FFDA)),
+                .background(Color(0xFFF3328D)), //makes color of background pink
             contentAlignment = Alignment.Center
         ) {
             TimeText()
@@ -64,7 +67,7 @@ fun Greeting(greetingName: String) {
         modifier = Modifier.fillMaxWidth(),
         textAlign = TextAlign.Center,
         //color = MaterialTheme.colors.primary,
-        color = Color(0xFF00FF00),
+        color = Color(0xFFFFFF00), //makes color of text yellow
         //text = stringResource(R.string.hello_world, greetingName),
         text = "Sleep\nDuration App"
     )
