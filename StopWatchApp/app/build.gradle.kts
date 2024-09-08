@@ -1,3 +1,7 @@
+// Define extra properties
+val compose_version by extra("1.3.0")
+val wear_compose_version by extra("1.0.0")
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -63,4 +67,22 @@ dependencies {
     androidTestImplementation(libs.ui.test.junit4)
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
+
+    implementation("androidx.core:core-ktx:1.7.0")
+    implementation("com.google.android.gms:play-services-wearable:18.0.0")
+    implementation("androidx.percentlayout:percentlayout:1.0.0")
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation("androidx.recyclerview:recyclerview:1.3.0")
+    implementation("androidx.compose.ui:ui:$compose_version")
+    implementation("androidx.wear.compose:compose-material:$wear_compose_version")
+    implementation("androidx.wear.compose:compose-foundation:$wear_compose_version")
+    implementation("androidx.compose.ui:ui-tooling-preview:$compose_version")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.3.1")
+    implementation("androidx.activity:activity-compose:1.3.1")
+    implementation("androidx.compose.material:material-icons-extended:1.3.1")
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4:$compose_version")
+    debugImplementation("androidx.compose.ui:ui-tooling:$compose_version")
+    debugImplementation("androidx.compose.ui:ui-test-manifest:$compose_version")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.0")
 }
