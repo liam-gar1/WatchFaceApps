@@ -1,0 +1,43 @@
+<svg>
+  <rect id="background" />
+  <image id="importBg" />
+  <text id="label" />
+  <text id="tempLabel" />
+  <text id="sleepLabel" />
+  <text id="timeLabel" />
+  <text id="timerLabel" />
+  <text id="startTimeLabel" />
+  <text id="stopTimeLabel" />
+  <text id="sleepDuration" />
+  <text id="colon" />
+  <symbol id="image1" >
+  <image href="Images/mainScreen.png" />
+  </symbol>
+  <symbol id="screens" >
+  <image id="screens" />
+  </symbol>
+  <use id="button" href="#push-button" >
+  <image id="buttonImg" />
+  </use>
+  <use id="confirm" href="#push-button" >
+  <image id="confirmImg" />
+  </use>
+  <use id="selectHrUp" href="#push-button" >
+  <image id="upHr" />
+  </use>
+  <use id="select10sUp" href="#push-button" >
+  <image id="up10s" />
+  </use>
+  <use id="selectMinUp" href="#push-button" >
+  <image id="upMin" />
+  </use>
+  <use id="selectHrDown" href="#push-button" >
+  <image id="DownHr" />
+  </use>
+  <use id="select10sDown" href="#push-button" >
+  <image id="Down10s" />
+  </use>
+  <use id="selectMinDown" href="#push-button" >
+  <image id="DownMin" />
+  </use>
+</svg>
